@@ -13,17 +13,16 @@
         layout="@layout/toolbar"/>
 
     <ImageView
-        android:id="@+id/agh_logo"
-        android:layout_width="230dp"
-        android:layout_height="129dp"
-        android:layout_below="@+id/toolbar"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="111dp"
-        android:layout_marginEnd="88dp"
-        android:contentDescription="@string/ic_logo_agh_description"
-        android:src="@drawable/logo_agh" />
-
+            android:id="@+id/agh_logo"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="87dp"
+            android:contentDescription="@string/ic_logo_agh_description"
+            android:src="@drawable/logo_agh"/>
     <TextView
 
         android:id="@+id/description"
@@ -31,12 +30,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/agh_logo"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="123dp"
-
-        android:layout_marginBottom="2005dp"
-        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
         android:text="@string/About_text"
-        android:textSize="22sp" />
+        android:textSize="33dp"
+
+         />
 
 
 </RelativeLayout>

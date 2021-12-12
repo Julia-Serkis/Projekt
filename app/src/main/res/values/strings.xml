@@ -21,5 +21,6 @@
     <string name="choosen1">Wybrano kartę SD</string>
     <string name="choosen2">Wybrano kartę Pamięć wewnętrzną</string>
     <string name="ic_logo_agh_description">Logo AGH</string>
-    <string name="About_text">Aplikacja powstała na potrzeby Projektu z przedmiotu "Programowanie Obiektowe". Rok akademicki 2021/2022 TI2 Julia Serkis, Edyta Paruch.</string>
+    <string name="About_text">Aplikacja to projekt Programowanie obiektowe ---AGH 2021/2022 2TI--- Julia Serkis 402159.</string>
+	
 </resources>
