@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/above_choosing_storage"
+        android:layout_above="@id/RG1"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingRight="40dp"
+        android:paddingLeft="0dp"
+
+        >
+
+    </TextView>
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv2"
+        android:layout_centerInParent="true"
+        android:gravity="start"
+
+
+        >
+
+        <RadioButton
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sdcard"
+            android:enabled="false"
+            >
+
+        </RadioButton>
+        <RadioButton
+
+        android:id="@+id/R2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/internal_storage">
+
+    </RadioButton>
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/R5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_alignStart="@+id/tv1"
+        android:layout_alignEnd="@+id/tv1"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_folder"
+        android:layout_above="@id/RG2"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+<RadioGroup
+    android:layout_alignStart="@+id/RG1"
+    android:layout_alignEnd="@+id/RG1"
+    android:id="@+id/RG2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/tv3"
+    android:layout_centerInParent="true"
+    android:gravity="start"
+
+    >
+
+    <RadioButton
+        android:id="@+id/R3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download"
+        >
+
+    </RadioButton>
+<RadioButton
+
+    android:id="@+id/R4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/no_folder">
+
+</RadioButton>
+    <RadioButton
+
+        android:id="@+id/R6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+
+    </RadioButton>
+    <RadioButton
+
+        android:id="@+id/R7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom"
+
+        >
+
+
+    </RadioButton>
+    <EditText
+        android:id="@+id/path_enter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:visibility="gone"
+        android:digits="aąbcćdeęfghijklłmnńoóprsśtuwyzźżqvxAĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ_/"
+        android:text="/Folder/"/>
+
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Above_progress_bar_1"
+        android:layout_above="@id/determinateBar"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <ProgressBar
+        android:id="@+id/determinateBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="248dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/determinateBar"
+        android:layout_centerInParent="true"
+        android:text="@string/begin"
+        />
+
+
+</RelativeLayout>

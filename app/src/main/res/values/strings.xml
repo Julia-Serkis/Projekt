@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File Organizer</string>
+
+
+
+    <string name="Phone_number">+48123456789</string>
+    <string name="Contact_text">W razie problemów z aplikacją proszę o kontakt.</string>
+    <string name="Email">Email</string>
+    <string name="Above_progress_bar_1">Naciśnij przycisk aby posprzątać pamięć</string>
+    <string name="Above_progress_bar_2">Trwa przenoszenie plików </string>
+    <string name="Above_progress_bar_3">Sprzątanie ukończone. Pliki zostały przeniesione</string>
+    <string name="above_choosing_storage">Wybierz część pamięci</string>
+    <string name="choose_folder">Wybierz opcje</string>
+    <string name="no_folder">Bez folderu</string>
+    <string name="download">Download</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="sdcard">SDCard</string>
+    <string name="begin">Rozpocznij</string>
+    <string name="warning_radio_first">Wybierz najpierw pierwszą kategorię</string>
+    <string name="choosen1">Wybrano kartę SD</string>
+    <string name="choosen2">Wybrano kartę Pamięć wewnętrzną</string>
+    <string name="ic_logo_agh_description">Logo AGH</string>
+    <string name="About_text">Aplikacja powstała na potrzeby Projektu z przedmiotu "Programowanie Obiektowe". Rok akademicki 2021/2022 TI2 Julia Serkis, Edyta Paruch.</string>
+</resources>
