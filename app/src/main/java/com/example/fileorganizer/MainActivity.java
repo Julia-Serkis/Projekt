@@ -310,6 +310,7 @@ private String removablepath(){
                 case "doc":
                 case "docx":
                 case "xlsx":
+                case "xls":
                 case "pdf":
                 case "txt":
                 {
@@ -544,15 +545,11 @@ private String removablepath(){
 
             case R.id.button_send:{
                 if (Path != null){
-
-
-                if(r7.isChecked()) {
-
-
-                    listoffiles(GetCustompath(Path));
-                        }else {
-                            listoffiles(Path);
-                    }
+                    if(r7.isChecked()) {
+                        listoffiles(GetCustompath(Path));
+                            }else {
+                                listoffiles(Path);
+                        }
                 }else {
 
                     Toast.makeText(this, "Nie wybrano folderu", Toast.LENGTH_SHORT).show();

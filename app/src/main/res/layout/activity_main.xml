@@ -25,39 +25,41 @@
         >
 
     </TextView>
+
     <RadioGroup
         android:id="@+id/RG1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/tv2"
         android:layout_centerInParent="true"
-        android:gravity="start"
 
 
-        >
+        android:gravity="start">
 
         <RadioButton
             android:id="@+id/R1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sdcard"
             android:enabled="false"
-            >
+            android:text="@string/sdcard"
+            tools:ignore="TouchTargetSizeCheck">
 
         </RadioButton>
+
         <RadioButton
 
-        android:id="@+id/R2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/internal_storage">
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/internal_storage">
 
-    </RadioButton>
+        </RadioButton>
+
         <RadioButton
-            android:visibility="gone"
             android:id="@+id/R5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:visibility="gone">
 
         </RadioButton>
 
@@ -75,64 +77,67 @@
         android:textStyle="bold"
         android:textColor="#000"
         />
-<RadioGroup
-    android:layout_alignStart="@+id/RG1"
-    android:layout_alignEnd="@+id/RG1"
-    android:id="@+id/RG2"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_above="@id/tv3"
-    android:layout_centerInParent="true"
-    android:gravity="start"
 
-    >
-
-    <RadioButton
-        android:id="@+id/R3"
+    <RadioGroup
+        android:id="@+id/RG2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/download"
-        >
+        android:layout_above="@id/tv3"
+        android:layout_alignStart="@+id/RG1"
+        android:layout_alignEnd="@+id/RG1"
+        android:layout_centerInParent="true"
 
-    </RadioButton>
-<RadioButton
+        android:gravity="start">
 
-    android:id="@+id/R4"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/no_folder">
+        <RadioButton
+            android:id="@+id/R3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/download">
 
-</RadioButton>
-    <RadioButton
+        </RadioButton>
 
-        android:id="@+id/R6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone">
+        <RadioButton
+
+            android:id="@+id/R4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_folder">
+
+        </RadioButton>
+
+        <RadioButton
+
+            android:id="@+id/R6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
 
 
-    </RadioButton>
-    <RadioButton
+        </RadioButton>
 
-        android:id="@+id/R7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Custom"
+        <RadioButton
 
-        >
+            android:id="@+id/R7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+
+            >
 
 
-    </RadioButton>
-    <EditText
-        android:id="@+id/path_enter"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:inputType="text"
-        android:visibility="gone"
-        android:digits="aąbcćdeęfghijklłmnńoóprsśtuwyzźżqvxAĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ_/"
-        android:text="/Folder/"/>
+        </RadioButton>
 
-</RadioGroup>
+        <EditText
+            android:id="@+id/path_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="aąbcćdeęfghijklłmnńoóprsśtuwyzźżqvxAĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ_/"
+            android:inputType="text"
+            android:text="/Folder/"
+            android:visibility="gone" />
+
+    </RadioGroup>
 
     <TextView
         android:id="@+id/tv3"

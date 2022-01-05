@@ -5,8 +5,8 @@
 
 
     <string name="Phone_number">+48123456789</string>
-    <string name="Contact_text">W razie problemów z aplikacją proszę o kontakt.</string>
-    <string name="Email">Email</string>
+    <string name="Contact_text">Wszelkie błędy w działaniu proszę zgłaszać:</string>
+    <string name="Email">Email: aplikacja@email.pl</string>
     <string name="Above_progress_bar_1">Naciśnij przycisk aby posprzątać pamięć</string>
     <string name="Above_progress_bar_2">Trwa przenoszenie plików </string>
     <string name="Above_progress_bar_3">Sprzątanie ukończone. Pliki zostały przeniesione</string>
@@ -19,8 +19,8 @@
     <string name="begin">Rozpocznij</string>
     <string name="warning_radio_first">Wybierz najpierw pierwszą kategorię</string>
     <string name="choosen1">Wybrano kartę SD</string>
-    <string name="choosen2">Wybrano kartę Pamięć wewnętrzną</string>
+    <string name="choosen2">Wybrano Pamięć wewnętrzną</string>
     <string name="ic_logo_agh_description">Logo AGH</string>
-    <string name="About_text">Aplikacja to projekt Programowanie obiektowe ---AGH 2021/2022 2TI--- Julia Serkis 402159.</string>
+    <string name="About_text">Aplikacja to projekt na Programowanie obiektowe ---AGH 2021/2022 2TI--- Julia Serkis 402159.</string>
 	
 </resources>
